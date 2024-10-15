@@ -1,0 +1,5 @@
+<div class="upload-container">
+  <h2>Télécharger une capture d'écran pour analyse</h2>
+  <input type="file" (change)="onFileSelected($event)" accept="image/*" />
+  <button mat-raised-button color="primary" (click)="onUpload()">Analyser</button>
+</div>
